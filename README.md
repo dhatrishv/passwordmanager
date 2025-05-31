@@ -1,4 +1,4 @@
-Password Manager (Java Console App)
+### Password Manager (Java Console App)
 
 A simple file-based Password Manager built using Java. This console application helps you store and retrieve your website credentials securely on your local system.
 
@@ -13,11 +13,11 @@ A simple file-based Password Manager built using Java. This console application 
 # Project Structure:
 PasswordManager/
 ├── src/
-│   └── PasswordManager.java          # Main Java code
+│   └── PasswordManager.java # Main Java code
 ├── data/
-│   └── credentials.txt               # File to store credentials (auto-created)
-├── README.md                         # Project description
-└── .gitignore                        # Ignore compiled files and data
+│   └── credentials.txt # File to store credentials (auto-created)
+├── README.md # Project description
+└── .gitignore  # Ignore compiled files and data
 
 
 # Sample output on terminal:
@@ -45,16 +45,16 @@ GitHub: dhatrishv
 
 # Flow Diagram of working:
 1.Start Program
-  Shows a menu: Add, View, Search, Exit.
+  - Shows a menu: Add, View, Search, Exit.
 2.User Input
-  User selects an option (1-4).
+  - User selects an option (1-4).
 3.Actions Based on Choice
-  Add → Takes website, username, password → Saves to file.
-  View → Reads and displays all saved credentials.
-  Search → Finds and shows credentials for a given website.
-  Exit → Ends the program.
+  - Add → Takes website, username, password → Saves to file.
+  - View → Reads and displays all saved credentials.
+  - Search → Finds and shows credentials for a given website.
+  - Exit → Ends the program.
 4.Loop
-  After each action, returns to the main menu until the user exits.
+  - After each action, returns to the main menu until the user exits.
 
 
 
